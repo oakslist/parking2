@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Parcking App</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/parkingApp.css">
+	<script src="js/parking.js"></script>
+</head>
+
+<body>
+	<div class="contentWrapper">
+		<header class="banner">
+			<div class="logo">
+			</div>
+		</header>
+		
+		<div class="mainWrapper">
+			<main>
+				<h1>Parking Place</h1>
+				
+				<div class="working-place parkingPlace" id="working-place">
+					<div class="parking" id="parking">
+
+					</div>
+					<div class="sidebar">
+						<div class="formParking">
+							<h2>Control: </h2>
+						</div>
+						<button class="goButton" id="start-btn">
+							Go! Go! Go!
+						</button>
+						<section class="sidebar-checked">
+							<button class="goButton">
+							Add car...
+							</button>
+							<p>Write x: <input type="x" id="x"></p>
+							<p>Write y: <input type="y" id="y"></p>
+							<button id="add" class="goButton">Add XY</button>
+						</section>
+					</div>
+				</div>
+				<div class="infoTeam">
+					<h2>
+						<div class="address">12 hour Hackaton'2014<br>Gomel</div>
+					</h2>
+					<ul class="teamAddress">Team <span>"Lemon" :</span>
+						<li>Hanna Sushchanka</li>
+						<li>Viachaslau Karnaushanka</li>
+						<li>Kiryl Lutsyk</li>
+						<li>Siarhei Varachai</li>
+					</ul>
+				</div>			
+			</main>
+		</div>
+	</div>
+
+<script>start(); setStartBtn();setAddXYBtn()</script>
+</body>
+</html>

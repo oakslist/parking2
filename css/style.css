@@ -1,0 +1,175 @@
+body {
+	width: 80%;
+ 	margin: 0 10%;
+ 	border: solid green;
+ 	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.2;
+
+}
+
+main {
+	width: 65%;
+	float: left;
+	margin: 0;
+}
+
+aside {
+	width: 30%;
+	float: right;
+}
+
+.main-footer {
+	border: solid red;
+	clear: both;
+}
+
+h1 {
+	padding: 15px 0;
+}
+
+h1, h2, h3 {
+	color: blue;
+}
+
+h2 {
+	margin: 0;
+}
+
+/* main header */
+.language-selection {
+	margin: 10px 0;
+	text-align: right;
+}
+
+.language-selection select {
+	margin-right: 0;
+}
+
+.steps ul {
+	border: solid red;
+	margin: 0;
+}
+
+.steps li {
+	display: inline;
+	margin-right: 5%;
+	padding: 20px;
+}
+
+/* air itinerary details */
+
+.itinerary-airport {
+	color: blue;
+}
+
+.fare-rules-href {
+	text-align: right;
+	margin: 0 0 10px 0;
+}
+
+/*Brussels - London table*/
+.itinerary-table {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin: 0;
+}
+
+.itinerary-table td {
+	padding: 15px 10px;
+	vertical-align: top;
+	vertical-align: top;
+}
+
+.itinerary-table tr.odd {
+	background: #DCE0E4;
+}
+
+.itinerary-table tr.even {
+	background: #F5F6F7;
+}
+
+/* fare breakdown */
+
+.fare-table-name {
+	padding: 9px 0 7px 10px;
+}
+
+.fare-table {
+	border: none;
+	border-collapse: collapse;
+}
+
+.fare-table thead {
+	background-color: #0F3973;
+	color: white;
+}
+
+/*dotted lines in table*/
+.fare-table tr.middle {
+	border-top: thick dotted #BCC9D8;
+	border-bottom: thick dotted #BCC9D8;
+	border-width: 1px;
+}
+
+.fare-table thead a {
+	color: white;
+}
+
+.fare-table tbody tr td, .fare-table thead tr th {
+	padding: 7px 10px 7px 10px;
+	text-align: right;
+} 
+
+.fare-table tbody tr td:first-child, .fare-table thead tr th:first-child {
+	text-align: left;
+} 
+
+/* fare-beakdown additional information */
+/*add minus*/
+.additional-head:before {
+	content: "";
+	float: left;
+	width: 9px;
+	height: 7px;
+	margin: 4px 5px 0 3px;
+	background: url(/images/css/airline_sprites.png) 0 0;
+}
+
+.additional-head {
+	padding: 10px 0 0 10px;
+}
+
+/*add list style*/
+.additional-list {
+	padding-left: 27px;
+}
+
+.additional-list li {
+	list-style-type: none;
+	margin: 7px 0 0px 0;
+}
+
+.additional-list li:before {
+	content: "";
+	float: left;
+	width: 5px;
+	height: 5px;
+	margin: 4px 10px 0 0;
+	background: url(/images/css/airline_sprites.png) -20px -1px;
+}
+
+/*itinerary footer*/
+.total-price,
+.saving-price {
+	float: right;
+	color: #FE2B2B;
+	margin-left: 10px;
+}
+
+.total,
+.saving {
+	text-align: right;
+}
+

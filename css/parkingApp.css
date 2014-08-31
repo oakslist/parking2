@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.2;
+	color: #424348;
+	background: #0D0328;
+}
+
+.contentWrapper {
+	margin: 0 auto;
+    min-width: 1260px;
+}
+
+header {
+	background-image: url(images/groundHeader.png);
+	background-repeat: no-repeat;
+	width: 1260px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	width: 272px;
+	height: 48px;
+	margin: 0;
+}
+
+main {
+	width: 1260px;
+	height: 700px; /*main content*/
+	margin: 0 auto;
+	position: relative;
+	background: lightgray;
+}
+
+h1 {
+	font: 300 1.75em 'museo-sans', Arial, Helvetica, sans-serif;
+	margin: 2% 0 1% 4%; 
+	line-height: 85px;
+	height: 70px;
+	color: rgb(79, 83, 100);
+}
+
+.parkingPlace {
+	width: 100%;
+	height: 93%;
+}
+
+.parking {
+	background-image: url(images/metall.png);
+	background-repeat: no-repeat;
+	width: 75%;
+	height: 825px;
+	margin-left: 2%;
+	float: left;
+}
+
+.sidebar {
+	float:right;
+	width: 20%;
+	height: 825px;
+}
+
+.goButton {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #a5abb8));
+	background:-moz-linear-gradient(top, #ededed 5%, #a5abb8 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #a5abb8 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #a5abb8 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #a5abb8 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #a5abb8 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#a5abb8',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:24px;
+	-webkit-border-radius:24px;
+	border-radius:24px;
+	border:5px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:italic;
+	padding:8px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.goButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a5abb8), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #a5abb8 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #a5abb8 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #a5abb8 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #a5abb8 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #a5abb8 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5abb8', endColorstr='#ededed',GradientType=0);
+	background-color:#a5abb8;
+}
+.goButton:active {
+	position:relative;
+	top:1px;
+}
+
+.infoTeam {
+	color: lightgrey;
+}
+
+.infoTeam span {
+color: lemonchiffon;
+font-size: 14px;
+}
